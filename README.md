@@ -1,6 +1,6 @@
 # 🏢 Employee Leave Management System
 ## 📖 Overview
-The Employee Leave Management System is a web application designed to manage employee leave requests. It allows employees to request vacation or sick leave, and HR managers to approve or reject these requests. The system also provides dashboards for both employees and HR managers to view leave balances, recent requests, and other relevant information.
+The **Employee Leave Management System** is a web application designed to manage employee leave requests. It allows employees to request vacation or sick leave, and HR managers to approve or reject these requests. The system also provides dashboards for both employees and HR managers to view leave balances, recent requests, and other relevant information.
 
 ## ✨ Features
 * 👤 Employee Features:
