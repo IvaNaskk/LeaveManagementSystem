@@ -77,10 +77,10 @@ dotnet test
 ## 📸 Screenshots
 | Employee Dashboard | HR Dashboard |
 |--------------------|--------------|
-| <img width="300" src="https://github.com/user-attachments/assets/15e3659a-99b5-4db5-bd12-667a5d33fe80" alt="Employee Dashboard"> | <img width="300" src="https://github.com/user-attachments/assets/9cdd965b-b504-4f37-83dc-d0cc0a56695c" alt="HR Dashboard"> |
+| <img width="500" src="https://github.com/user-attachments/assets/15e3659a-99b5-4db5-bd12-667a5d33fe80" alt="Employee Dashboard"> | <img width="500" src="https://github.com/user-attachments/assets/9cdd965b-b504-4f37-83dc-d0cc0a56695c" alt="HR Dashboard"> |
 
 | Annual Leave Request | Sick Leave Request |
 |----------------------|--------------------|
-| <img width="300" src="https://github.com/user-attachments/assets/2c44be06-fe44-43d4-94ef-955ea3387275" alt="Annual Leave Form"> | <img width="300" src="https://github.com/user-attachments/assets/641033cb-87eb-417f-9a73-813b2ba809db" alt="Sick Leave Form"> |
+| <img width="500" src="https://github.com/user-attachments/assets/2c44be06-fe44-43d4-94ef-955ea3387275" alt="Annual Leave Form"> | <img width="500" src="https://github.com/user-attachments/assets/641033cb-87eb-417f-9a73-813b2ba809db" alt="Sick Leave Form"> |
 
 ￼
