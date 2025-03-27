@@ -3,26 +3,26 @@
 The **Employee Leave Management System** is a web application designed to manage employee leave requests. It allows employees to request vacation or sick leave, and HR managers to approve or reject these requests. The system also provides dashboards for both employees and HR managers to view leave balances, recent requests, and other relevant information.
 
 ## ✨ Features
-* 👤 Employee Features:
+* 👤 **Employee Features:**
     * 📅 Request vacation or sick leave.
     * 📊 View remaining leave balances (annual, bonus, and sick leave).
     * 📋 View recent leave requests and their statuses (approved, pending, rejected).
-* 👔 HR Features:
+* 👔 **HR Features:**
     * ✅ Approve or reject leave requests.
     * 👥 Manage employee profiles (add, update, delete employees).
     * 📊 View leave reports and export them to Excel.
     * 🔍 Monitor employees with low leave balances.
-* 🔐 Authentication and Authorization:
+* 🔐 **Authentication and Authorization:**
     * 👤 Employees and HR managers have separate roles and access levels.
     * 🚪 Employees can only access their own dashboard and leave requests.
     * 🗝️ HR managers can access all employee data and manage leave requests.
   
 ## 🛠️ Technologies Used
-* Backend: ASP.NET Core (MVC)
-* Frontend: Razor Views, HTML, CSS, Bootstrap
-* Database: SQLite (for development), Entity Framework Core (ORM)
-* Authentication: ASP.NET Core Identity
-* Testing: xUnit, Moq
+* **Backend:** ASP.NET Core (MVC)
+* **Frontend:** Razor Views, HTML, CSS, Bootstrap
+* **Database:** SQLite (for development), Entity Framework Core (ORM)
+* **Authentication:** ASP.NET Core Identity
+* **Testing:** xUnit, Moq
   
 ## 🚀 Getting Started
 📋 Prerequisites
