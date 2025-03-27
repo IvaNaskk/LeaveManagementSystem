@@ -47,7 +47,7 @@ The Employee Leave Management System is a web application designed to manage emp
 
 ## 🧪 Running Tests
 To run the unit tests, use the following command:  
-    ```bash  
+    ``bash  
    dotnet test  
 
 ## 📂 Project Structure
