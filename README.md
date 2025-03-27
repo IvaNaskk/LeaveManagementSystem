@@ -77,7 +77,7 @@ dotnet test
 ## 📸 Screenshots
 | Employee Dashboard | HR Dashboard |
 |--------------------|--------------|
-| <img width="500" src="https://github.com/user-attachments/assets/15e3659a-99b5-4db5-bd12-667a5d33fe80" alt="Employee Dashboard"> | <img width="500" src="https://github.com/user-attachments/assets/9cdd965b-b504-4f37-83dc-d0cc0a56695c" alt="HR Dashboard"> |
+| <img width="500" src="https://github.com/user-attachments/assets/9cdd965b-b504-4f37-83dc-d0cc0a56695c" alt="HR Dashboard"> | <img width="500" src="https://github.com/user-attachments/assets/15e3659a-99b5-4db5-bd12-667a5d33fe80" alt="Employee Dashboard"> |
 
 | Annual Leave Request | Sick Leave Request |
 |----------------------|--------------------|
