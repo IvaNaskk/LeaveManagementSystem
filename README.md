@@ -1,6 +1,7 @@
 🏢 Employee Leave Management System
 📖 Overview
 The Employee Leave Management System is a web application designed to manage employee leave requests. It allows employees to request vacation or sick leave, and HR managers to approve or reject these requests. The system also provides dashboards for both employees and HR managers to view leave balances, recent requests, and other relevant information.
+
 ✨ Features
 * 👤 Employee Features:
     * 📅 Request vacation or sick leave.
@@ -15,31 +16,37 @@ The Employee Leave Management System is a web application designed to manage emp
     * 👤 Employees and HR managers have separate roles and access levels.
     * 🚪 Employees can only access their own dashboard and leave requests.
     * 🗝️ HR managers can access all employee data and manage leave requests.
+  
 🛠️ Technologies Used
 * Backend: ASP.NET Core (MVC)
 * Frontend: Razor Views, HTML, CSS, Bootstrap
 * Database: SQLite (for development), Entity Framework Core (ORM)
 * Authentication: ASP.NET Core Identity
 * Testing: xUnit, Moq
+  
 🚀 Getting Started
 📋 Prerequisites
 * .NET 7 SDK
 * Visual Studio or Visual Studio Code
 * SQLite (for development)
+  
 🛠️ Installation
 1. Clone the Repository: bash Copy  git clone https://github.com/IvaNaskk/LeaveManagementSystem
 2. cd LeaveManagementSystem
+   
 🔑 Default Accounts
 * HR Manager:
     * 📧 Email: admin@admin.com
     * 🔑 Password: NewSecurePass@123
 * Employee:
     * 👤 Employees can register themselves using the Register page.
+
 🧪 Running Tests
 To run the unit tests, use the following command:
 bash
 Copy
 dotnet test
+
 📂 Project Structure
 * Controllers:
     * EmployeeController: Handles employee-related actions (e.g., requesting leave, viewing dashboard).
@@ -61,6 +68,7 @@ dotnet test
     * Razor views for all pages (e.g., Dashboard.cshtml, RequestVacation.cshtml, ManageEmployees.cshtml).
 * Tests:
     * Unit tests for controllers and models using xUnit and Moq.
+
 📸 Screenshots
 Here are some screenshots of the application:
 
