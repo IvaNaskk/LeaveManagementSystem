@@ -25,7 +25,7 @@ The **Employee Leave Management System** is a web application designed to manage
 * **Testing:** xUnit, Moq
   
 ## 🚀 Getting Started
-📋 **Prerequisites**
+###📋 Prerequisites
 * .NET 7 SDK
 * Visual Studio or Visual Studio Code
 * SQLite (for development)
@@ -33,11 +33,12 @@ The **Employee Leave Management System** is a web application designed to manage
 ## 🛠️ Installation
 1. Clone the Repository:
    ```bash  
-   git clone https://github.com/IvaNaskk/LeaveManagementSystem  
+   git clone https://github.com/IvaNaskk/LeaveManagementSystem
+   ```
 2. Open LeaveManagementSystem
    ```bash  
    cd LeaveManagementSystem 
-   
+   ```
 ## 🔑 Default Accounts
 * **HR Manager:**
     * 📧 Email: admin@admin.com
