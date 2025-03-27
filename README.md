@@ -25,7 +25,7 @@ The **Employee Leave Management System** is a web application designed to manage
 * **Testing:** xUnit, Moq
   
 ## 🚀 Getting Started
-###📋 Prerequisites
+### 📋 Prerequisites
 * .NET 7 SDK
 * Visual Studio or Visual Studio Code
 * SQLite (for development)
