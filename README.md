@@ -53,21 +53,21 @@ dotnet test
 
 ## 📂 Project Structure
 * **Controllers:**
-    * EmployeeController: Handles employee-related actions (e.g., requesting leave, viewing dashboard).
-    * HRController: Handles HR-related actions (e.g., managing employees, approving leave requests).
-    * LeaveRequestController: Handles leave request approvals and rejections.
-    * AccountController: Handles authentication (login, registration, logout).
-    * HomeController: Handles the home page and error handling.
+    * **EmployeeController:** Handles employee-related actions (e.g., requesting leave, viewing dashboard).
+    * **HRController:** Handles HR-related actions (e.g., managing employees, approving leave requests).
+    * **LeaveRequestController:** Handles leave request approvals and rejections.
+    * **AccountController:** Handles authentication (login, registration, logout).
+    * **HomeController:** Handles the home page and error handling.
 * **Models:**
-    * Employee: Represents an employee with properties like name, email, and leave balances.
-    * VacationRequest: Represents a vacation leave request.
-    * SickLeaveRequest: Represents a sick leave request.
-    * ErrorViewModel: Represents the model for the error page.
+    * **Employee:** Represents an employee with properties like name, email, and leave balances.
+    * **VacationRequest:** Represents a vacation leave request.
+    * **SickLeaveRequest:** Represents a sick leave request.
+    * **ErrorViewModel:** Represents the model for the error page.
 * **ViewModels:**
-    * EmployeeDashboardViewModel: ViewModel for the employee dashboard.
-    * HRDashboardViewModel: ViewModel for the HR dashboard.
-    * VacationRequestViewModel: ViewModel for vacation leave requests.
-    * SickLeaveRequestViewModel: ViewModel for sick leave requests.
+    * **EmployeeDashboardViewModel:** ViewModel for the employee dashboard.
+    * **HRDashboardViewModel:** ViewModel for the HR dashboard.
+    * **VacationRequestViewModel:** ViewModel for vacation leave requests.
+    * **SickLeaveRequestViewModel:** ViewModel for sick leave requests.
 * **Views:**
     * Razor views for all pages (e.g., Dashboard.cshtml, RequestVacation.cshtml, ManageEmployees.cshtml).
 * **Tests:**
