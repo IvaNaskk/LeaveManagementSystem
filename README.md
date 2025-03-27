@@ -25,7 +25,7 @@ The **Employee Leave Management System** is a web application designed to manage
 * **Testing:** xUnit, Moq
   
 ## 🚀 Getting Started
-📋 Prerequisites
+📋 **Prerequisites**
 * .NET 7 SDK
 * Visual Studio or Visual Studio Code
 * SQLite (for development)
@@ -34,15 +34,15 @@ The **Employee Leave Management System** is a web application designed to manage
 1. Clone the Repository:
    ```bash  
    git clone https://github.com/IvaNaskk/LeaveManagementSystem  
-2. cd LeaveManagementSystem
+2. Open LeaveManagementSystem
    ```bash  
    cd LeaveManagementSystem 
    
 ## 🔑 Default Accounts
-* HR Manager:
+* **HR Manager:**
     * 📧 Email: admin@admin.com
     * 🔑 Password: NewSecurePass@123
-* Employee:
+* **Employee:**
     * 👤 Employees can register themselves using the Register page.
 
 ## 🧪 Running Tests
@@ -52,43 +52,43 @@ dotnet test
 ```
 
 ## 📂 Project Structure
-* Controllers:
+* **Controllers:**
     * EmployeeController: Handles employee-related actions (e.g., requesting leave, viewing dashboard).
     * HRController: Handles HR-related actions (e.g., managing employees, approving leave requests).
     * LeaveRequestController: Handles leave request approvals and rejections.
     * AccountController: Handles authentication (login, registration, logout).
     * HomeController: Handles the home page and error handling.
-* Models:
+* **Models:**
     * Employee: Represents an employee with properties like name, email, and leave balances.
     * VacationRequest: Represents a vacation leave request.
     * SickLeaveRequest: Represents a sick leave request.
     * ErrorViewModel: Represents the model for the error page.
-* ViewModels:
+* **ViewModels:**
     * EmployeeDashboardViewModel: ViewModel for the employee dashboard.
     * HRDashboardViewModel: ViewModel for the HR dashboard.
     * VacationRequestViewModel: ViewModel for vacation leave requests.
     * SickLeaveRequestViewModel: ViewModel for sick leave requests.
-* Views:
+* **Views:**
     * Razor views for all pages (e.g., Dashboard.cshtml, RequestVacation.cshtml, ManageEmployees.cshtml).
-* Tests:
+* **Tests:**
     * Unit tests for controllers and models using xUnit and Moq.
 
 ## 📸 Screenshots
 Here are some screenshots of the application:
 
-Employee Dashboard
+<strong><span style="font-size: 18px;">Employee Dashboard</span></strong>  
 
 <img width="658" alt="Screenshot 2025-03-27 at 01 39 14" src="https://github.com/user-attachments/assets/15e3659a-99b5-4db5-bd12-667a5d33fe80" />
 
-HR Dashboard
+<strong><span style="font-size: 18px;">HR Dashboard</span></strong>  
 
 ￼￼<img width="658" alt="Screenshot 2025-03-27 at 01 38 07" src="https://github.com/user-attachments/assets/9cdd965b-b504-4f37-83dc-d0cc0a56695c" />
 
-Leave Request Form for Annual Leave
+<strong><span style="font-size: 18px;">Leave Request Form for Annual Leave</span></strong>  
 
 <img width="658" alt="Screenshot 2025-03-27 at 01 40 21" src="https://github.com/user-attachments/assets/2c44be06-fe44-43d4-94ef-955ea3387275" />
 
-Leave Request Form for Sick Leave
+<strong><span style="font-size: 18px;">Leave Request Form for Sick Leave</span></strong>  
 
 <img width="658" alt="Screenshot 2025-03-27 at 01 41 19" src="https://github.com/user-attachments/assets/641033cb-87eb-417f-9a73-813b2ba809db" />
 
