@@ -31,8 +31,11 @@ The Employee Leave Management System is a web application designed to manage emp
 * SQLite (for development)
   
 ## 🛠️ Installation
-1. Clone the Repository: bash Copy  git clone https://github.com/IvaNaskk/LeaveManagementSystem
-2. cd LeaveManagementSystem
+1. Clone the Repository:
+   ```bash  
+   git clone https://github.com/IvaNaskk/LeaveManagementSystem  
+   cd LeaveManagementSystem   bash Copy  git clone https://github.com/IvaNaskk/LeaveManagementSystem
+3. cd LeaveManagementSystem
    
 ## 🔑 Default Accounts
 * HR Manager:
