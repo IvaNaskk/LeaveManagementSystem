@@ -1,0 +1,8 @@
+/Users/ivanaskovska/Desktop/endproject/Project1.Tests/bin/Debug/net9.0/.msCoverageSourceRootsMapping_Project1.Tests
+/Users/ivanaskovska/Desktop/endproject/Project1.Tests/bin/Debug/net9.0/CoverletSourceRootsMapping_Project1.Tests
+/Users/ivanaskovska/Desktop/endproject/Project1.Tests/obj/Debug/net9.0/Project1.Tests.csproj.AssemblyReference.cache
+/Users/ivanaskovska/Desktop/endproject/Project1.Tests/obj/Debug/net9.0/Project1.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ivanaskovska/Desktop/endproject/Project1.Tests/obj/Debug/net9.0/Project1.Tests.AssemblyInfoInputs.cache
+/Users/ivanaskovska/Desktop/endproject/Project1.Tests/obj/Debug/net9.0/Project1.Tests.AssemblyInfo.cs
+/Users/ivanaskovska/Desktop/endproject/Project1.Tests/obj/Debug/net9.0/Project1.Tests.csproj.CoreCompileInputs.cache
+/Users/ivanaskovska/Desktop/endproject/Project1.Tests/obj/Debug/net9.0/Project1.Tests.sourcelink.json

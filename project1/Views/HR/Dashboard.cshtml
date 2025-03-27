@@ -1,0 +1,146 @@
+﻿@model project1.ViewModels.HRDashboardViewModel
+
+@{
+    ViewData["Title"] = "HR Dashboard";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+<div class="container mt-4">
+    <h1 class="text-center mb-4">HR Dashboard</h1>
+
+    <!-- Summary Section -->
+    <div class="card shadow mb-4">
+        <div class="card-header bg-primary text-white">
+            <h4 class="card-title mb-0">
+                <i class="fas fa-chart-line mr-2"></i>Summary
+            </h4>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <!-- Total Employees -->
+                <div class="col-md-3">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <i class="fas fa-users mr-2"></i>Total Employees
+                            </h5>
+                            <p class="card-text">@Model.TotalEmployees</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pending Requests -->
+                <div class="col-md-3">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <i class="fas fa-clock mr-2"></i>Pending Requests
+                            </h5>
+                            <p class="card-text">@Model.PendingLeaveRequests</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Approved Requests -->
+                <div class="col-md-3">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <i class="fas fa-check-circle mr-2"></i>Approved Requests
+                            </h5>
+                            <p class="card-text">@Model.ApprovedLeaveRequests</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rejected Requests -->
+                <div class="col-md-3">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <i class="fas fa-times-circle mr-2"></i>Rejected Requests
+                            </h5>
+                            <p class="card-text">@Model.RejectedLeaveRequests</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Leave Balance Section -->
+    <div class="card shadow mb-4">
+        <div class="card-header bg-info text-white">
+            <h4 class="card-title mb-0">
+                <i class="fas fa-calendar-alt mr-2"></i>Leave Balance for Employees
+            </h4>
+        </div>
+        <div class="card-body">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Annual Leave Days</th>
+                        <th>Bonus Leave Days</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var employee in Model.LowLeaveBalanceEmployees)
+                    {
+                        <tr>
+                            <td>@employee.Name</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: @((employee.AnnualLeaveDays / 21.0) * 100)%;" aria-valuenow="@employee.AnnualLeaveDays" aria-valuemin="0" aria-valuemax="21">
+                                        @employee.AnnualLeaveDays
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" style="width: @((employee.BonusLeaveDays / 10.0) * 100)%;" aria-valuenow="@employee.BonusLeaveDays" aria-valuemin="0" aria-valuemax="10">
+                                        @employee.BonusLeaveDays
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Quick Actions Section -->
+    <div class="card shadow mb-4">
+        <div class="card-header bg-secondary text-white">
+            <h4 class="card-title mb-0">
+                <i class="fas fa-tasks mr-2"></i>Quick Actions
+            </h4>
+        </div>
+        <div class="card-body">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <!-- Manage Employees Button -->
+                <a href="@Url.Action("ManageEmployees", "HR")" class="btn btn-primary me-3">
+                    <i class="fas fa-users-cog mr-2"></i>Manage Employees
+                </a>
+
+                <!-- Manage Vacation Requests Button -->
+                <a href="@Url.Action("ManageVacationRequests", "LeaveRequest")" class="btn btn-success me-3">
+                    <i class="fas fa-plane mr-2"></i>Manage Vacation Requests
+                </a>
+
+                <!-- Manage Sick Leave Requests Button -->
+                <a href="@Url.Action("ManageSickLeaveRequests", "LeaveRequest")" class="btn btn-warning">
+                    <i class="fas fa-medkit mr-2"></i>Manage Sick Leave Requests
+                </a>
+
+                <!-- Generate Leave Requests Report Button -->
+                <a href="@Url.Action("GenerateLeaveReport", "HR")" class="btn btn-info">
+                    <i class="fas fa-file-alt mr-2"></i>Generate Leave Report
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>

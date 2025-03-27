@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{909CE12C-7E17-4431-9E1F-D64F8EF63463}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Project1.Tests" expanded="True">
+            <Node name="Project1.Tests">
+              <Node name="AccountControllerTests.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Project1.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

@@ -1,0 +1,49 @@
+﻿@using project1.Models
+@model Employee
+
+@{
+    ViewData["Title"] = "Add New Employee";
+}
+
+<h2>Add New Employee</h2>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+<form method="post">
+    <div class="form-group">
+        <label for="Name">Name</label>
+        <input type="text" class="form-control" id="Name" name="Name" value="@Model.Name" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="email" class="form-control" id="Email" name="Email" value="@Model.Email" required />
+    </div>
+
+    <div class="form-group">
+        <label for="AnnualLeaveDays">Annual Leave Days</label>
+        <input type="number" class="form-control" id="AnnualLeaveDays" name="AnnualLeaveDays" value="@Model.AnnualLeaveDays" required />
+    </div>
+
+    <div class="form-group">
+        <label for="BonusLeaveDays">Bonus Leave Days</label>
+        <input type="number" class="form-control" id="BonusLeaveDays" name="BonusLeaveDays" value="@Model.BonusLeaveDays" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Password">Password</label>
+        <input type="password" class="form-control" id="Password" name="password" required />
+    </div>
+
+    <button type="submit" class="btn btn-success">Add Employee</button>
+</form>

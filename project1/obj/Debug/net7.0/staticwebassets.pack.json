@@ -1,0 +1,341 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/obj/Debug/net7.0/scopedcss/projectbundle/project1.bundle.scp.css",
+      "PackagePath": "staticwebassets/project1.uvflnmbym2.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/uploads/medicalreports/0d074ee6-dd75-4290-bd11-20fe0267b5cd.pdf",
+      "PackagePath": "staticwebassets/uploads/medicalreports/0d074ee6-dd75-4290-bd11-20fe0267b5cd.pdf"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/uploads/medicalreports/0f3e0ce3-8427-4176-b5d9-af46ef210204.pdf",
+      "PackagePath": "staticwebassets/uploads/medicalreports/0f3e0ce3-8427-4176-b5d9-af46ef210204.pdf"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/uploads/medicalreports/3f290f01-d2b6-4182-a21a-4e28207c21cc.pdf",
+      "PackagePath": "staticwebassets/uploads/medicalreports/3f290f01-d2b6-4182-a21a-4e28207c21cc.pdf"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/uploads/medicalreports/40adcca5-3c08-4588-8df5-e27676d673a9.pdf",
+      "PackagePath": "staticwebassets/uploads/medicalreports/40adcca5-3c08-4588-8df5-e27676d673a9.pdf"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/uploads/medicalreports/634623ff-07f0-417e-91f1-a29743e3c890.pdf",
+      "PackagePath": "staticwebassets/uploads/medicalreports/634623ff-07f0-417e-91f1-a29743e3c890.pdf"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/uploads/medicalreports/75323515-76ff-48c8-8750-8d44bb02319d.pdf",
+      "PackagePath": "staticwebassets/uploads/medicalreports/75323515-76ff-48c8-8750-8d44bb02319d.pdf"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/uploads/medicalreports/7abc94bd-a0b4-4437-9b07-f125981ada98.pdf",
+      "PackagePath": "staticwebassets/uploads/medicalreports/7abc94bd-a0b4-4437-9b07-f125981ada98.pdf"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/uploads/medicalreports/8a4a2e10-a517-435a-89b6-624bdc1ad2c7.pdf",
+      "PackagePath": "staticwebassets/uploads/medicalreports/8a4a2e10-a517-435a-89b6-624bdc1ad2c7.pdf"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/uploads/medicalreports/9261966d-f581-4144-978b-4eb98dd77842.pdf",
+      "PackagePath": "staticwebassets/uploads/medicalreports/9261966d-f581-4144-978b-4eb98dd77842.pdf"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/uploads/medicalreports/9632691e-4bcf-4769-aea8-4e4787102a14.pdf",
+      "PackagePath": "staticwebassets/uploads/medicalreports/9632691e-4bcf-4769-aea8-4e4787102a14.pdf"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/uploads/medicalreports/a5b9989b-26c4-46e6-b4ea-81335250e225.pdf",
+      "PackagePath": "staticwebassets/uploads/medicalreports/a5b9989b-26c4-46e6-b4ea-81335250e225.pdf"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/uploads/medicalreports/aef9debc-e747-411c-a257-2a71c1ae1b80.pdf",
+      "PackagePath": "staticwebassets/uploads/medicalreports/aef9debc-e747-411c-a257-2a71c1ae1b80.pdf"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/uploads/medicalreports/b81c8868-c7e1-4a85-9394-be78ed990080.pdf",
+      "PackagePath": "staticwebassets/uploads/medicalreports/b81c8868-c7e1-4a85-9394-be78ed990080.pdf"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/uploads/medicalreports/c670444a-afd4-4a85-867b-02c11fd4466b.pdf",
+      "PackagePath": "staticwebassets/uploads/medicalreports/c670444a-afd4-4a85-867b-02c11fd4466b.pdf"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/uploads/medicalreports/e19fd79f-9313-4400-96f0-54b679430cef.pdf",
+      "PackagePath": "staticwebassets/uploads/medicalreports/e19fd79f-9313-4400-96f0-54b679430cef.pdf"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/uploads/medicalreports/ed1d08c8-5b3e-4fd9-b2de-819480736bf0.pdf",
+      "PackagePath": "staticwebassets/uploads/medicalreports/ed1d08c8-5b3e-4fd9-b2de-819480736bf0.pdf"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/uploads/medicalreports/f8a3006c-dd26-434f-be9d-6fb6321c811c.pdf",
+      "PackagePath": "staticwebassets/uploads/medicalreports/f8a3006c-dd26-434f-be9d-6fb6321c811c.pdf"
+    },
+    {
+      "Id": "/Users/ivanaskovska/Desktop/endproject_ss_testovi/project1/wwwroot/uploads/medicalreports/fd8c7412-d2b1-4a25-b8d1-2e1fd9832bb8.pdf",
+      "PackagePath": "staticwebassets/uploads/medicalreports/fd8c7412-d2b1-4a25-b8d1-2e1fd9832bb8.pdf"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.project1.props",
+      "PackagePath": "build\\project1.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.project1.props",
+      "PackagePath": "buildMultiTargeting\\project1.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.project1.props",
+      "PackagePath": "buildTransitive\\project1.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.project1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.project1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

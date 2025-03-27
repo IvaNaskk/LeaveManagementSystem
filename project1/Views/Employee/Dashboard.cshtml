@@ -1,0 +1,184 @@
+﻿@model project1.ViewModels.EmployeeDashboardViewModel
+
+@{
+    ViewData["Title"] = "Employee Dashboard";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+<div class="container mt-4">
+    <h1 class="text-center mb-4">Welcome, @Model.Name!</h1>
+
+    <!-- Leave Balance -->
+    <div class="card shadow mb-4">
+        <div class="card-header bg-dark text-white">
+            <h4 class="card-title mb-0">
+                <i class="fas fa-calendar-alt mr-2"></i>Leave Balance
+            </h4>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <!-- Annual Leave -->
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <i class="fas fa-sun mr-2"></i>Annual Leave
+                            </h5>
+                            <p class="card-text">@Model.AnnualLeaveDays days remaining</p>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: @((Model.AnnualLeaveDays / 21.0) * 100)%;" aria-valuenow="@Model.AnnualLeaveDays" aria-valuemin="0" aria-valuemax="21"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bonus Leave -->
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <i class="fas fa-gift mr-2"></i>Bonus Leave
+                            </h5>
+                            <p class="card-text">@Model.BonusLeaveDays days remaining</p>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" role="progressbar" style="width: @((Model.BonusLeaveDays / 10.0) * 100)%;" aria-valuenow="@Model.BonusLeaveDays" aria-valuemin="0" aria-valuemax="10"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Actions-->
+    <div class="card shadow mb-4">
+        <div class="card-header bg-secondary text-white">
+            <h4 class="card-title mb-0">
+                <i class="fas fa-tasks me-2"></i>Quick Actions
+            </h4>
+        </div>
+        <div class="card-body">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <!-- Request Vacation Button -->
+                <a href="@Url.Action("RequestVacation", "Employee")" class="btn btn-primary me-3">
+                    <i class="fas fa-plane mr-2"></i>Request Vacation
+                </a>
+
+                <!-- Request Sick Leave Button -->
+                <a href="@Url.Action("RequestSickLeave", "Employee")" class="btn btn-warning">
+                    <i class="fas fa-medkit mr-2"></i>Request Sick Leave
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recent Vacation Requests -->
+    <div class="card shadow mb-4">
+        <div class="card-header bg-info text-white">
+            <h4 class="card-title mb-0">
+                <i class="fas fa-plane-departure mr-2"></i>Recent Vacation Requests
+            </h4>
+        </div>
+        <div class="card-body">
+            @if (Model.RecentVacationRequests != null && Model.RecentVacationRequests.Any())
+            {
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Start Date</th>
+                            <th>End Date</th>
+                            <th>Leave Type</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var request in Model.RecentVacationRequests)
+                        {
+                            <tr>
+                                <td>@request.StartDate.ToString("dd/MM/yyyy")</td>
+                                <td>@request.EndDate.ToString("dd/MM/yyyy")</td>
+                                <td>@Model.VacationRequestTypes[request.Id]</td>
+                                
+                                <td>
+                                    @if (request.IsApproved.HasValue)
+                                    {
+                                        if (request.IsApproved.Value)
+                                        {
+                                            <span class="badge bg-success text-white">Approved</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-danger text-white">Rejected</span>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-warning">Pending</span>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <p class="text-muted">No recent vacation requests.</p>
+            }
+        </div>
+    </div>
+
+    <!-- Recent Sick Leave Requests -->
+    <div class="card shadow mb-4">
+        <div class="card-header bg-warning text-white">
+            <h4 class="card-title mb-0">
+                <i class="fas fa-medkit mr-2"></i>Recent Sick Leave Requests
+            </h4>
+        </div>
+        <div class="card-body">
+            @if (Model.RecentSickLeaveRequests != null && Model.RecentSickLeaveRequests.Any())
+            {
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Start Date</th>
+                            <th>End Date</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var request in Model.RecentSickLeaveRequests)
+                        {
+                            <tr>
+                                <td>@request.StartDate.ToString("dd/MM/yyyy")</td>
+                                <td>@request.EndDate.ToString("dd/MM/yyyy")</td>
+                                <td>
+                                    @if (request.IsApproved.HasValue)
+                                    {
+                                        if (request.IsApproved.Value)
+                                        {
+                                            <span class="badge bg-success text-white">Approved</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-danger text-white">Rejected</span>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-warning">Pending</span>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <p class="text-muted">No recent sick leave requests.</p>
+            }
+        </div>
+    </div>
+</div>

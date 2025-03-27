@@ -1,0 +1,26 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@inject SignInManager<Employee> SignInManager
+@inject UserManager<Employee> UserManager
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="d-flex justify-content-center align-items-center min-vh-100">
+    <div class="text-center">
+        <h1 class="display-5">Leave Management System</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>
+</div>
+
+
+
+
+@if (User.IsInRole("HR"))
+{
+    <h1>Hi admin!</h1>
+}
+else if (User.IsInRole("Employee"))
+{
+    <h1>Hello eployee!!</h1>
+}

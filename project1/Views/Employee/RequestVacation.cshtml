@@ -1,0 +1,26 @@
+﻿@model project1.ViewModels.VacationRequestViewModel
+
+<h2>Request Vacation</h2>
+
+<form method="post" asp-action="RequestVacation">
+    <div class="form-group">
+        <label for="StartDate">Start Date</label>
+        <input type="date" class="form-control" id="StartDate" name="StartDate" required />
+    </div>
+    <div class="form-group">
+        <label for="EndDate">End Date</label>
+        <input type="date" class="form-control" id="EndDate" name="EndDate" required />
+    </div>
+    <div class="form-group">
+        <label for="Reason">Reason</label>
+        <textarea class="form-control" id="Reason" name="Reason" rows="4"></textarea>
+    </div>
+    <div class="form-group">
+        <label for="IsAnnualLeave">Leave Type</label>
+        <select class="form-control" id="IsAnnualLeave" name="IsAnnualLeave">
+            <option value="true">Annual Leave</option>
+            <option value="false">Bonus Leave</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit Request</button>
+</form>

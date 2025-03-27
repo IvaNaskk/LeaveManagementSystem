@@ -1,0 +1,130 @@
+﻿@model IEnumerable<SickLeaveRequest>
+
+@{
+    ViewData["Title"] = "Manage Sick Leave Requests";
+}
+
+<h2>Manage Sick Leave Requests</h2>
+
+<!-- Filters -->
+<div class="btn-group mb-3">
+    <a asp-action="ManageSickLeaveRequests" asp-route-statusFilter="Pending" class="btn btn-primary mr-3">Pending</a>
+    <a asp-action="ManageSickLeaveRequests" asp-route-statusFilter="Approved" class="btn btn-success mr-3">Approved</a>
+    <a asp-action="ManageSickLeaveRequests" asp-route-statusFilter="Rejected" class="btn btn-danger">Rejected</a>
+</div>
+
+
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Employee</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Status</th>
+            <th>Actions</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var request in Model)
+            {
+                <tr>
+                    <td>@request.Employee.Name</td>
+                    <td>@request.StartDate.ToShortDateString()</td>
+                    <td>@request.EndDate.ToShortDateString()</td>
+                    <td>
+                        @if (request.IsApproved == null)
+                        {
+                            <span class="badge bg-warning text-black">Pending</span>
+                        }
+                        else if (request.IsApproved == true)
+                        {
+                            <span class="badge bg-success text-white">Approved</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-danger text-white">Rejected</span>
+                        }
+                    </td>
+                    <td>
+                        @if (request.IsApproved == null)
+                        {
+                            <form method="post" asp-action="ApproveRejectSickLeaveRequest">
+                                <input type="hidden" name="id" value="@request.Id" />
+                                <button type="submit" name="approve" value="true" class="btn btn-success btn-sm">Approve</button>
+                                <button type="submit" name="approve" value="false" class="btn btn-danger btn-sm">Reject</button>
+                            </form>
+                        }
+                    </td>
+                    <td>
+                        <!-- Button to trigger modal -->
+                        <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#detailsModal-@request.Id">
+                            Details
+                        </button>
+
+                        <!-- Modal for Details -->
+                        <div class="modal fade" id="detailsModal-@request.Id" tabindex="-1" role="dialog" aria-labelledby="detailsModalLabel-@request.Id" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="detailsModalLabel-@request.Id">Sick Leave Request Details</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p><strong>Employee:</strong> @request.Employee.Name</p>
+                                        <p><strong>Start Date:</strong> @request.StartDate.ToShortDateString()</p>
+                                        <p><strong>End Date:</strong> @request.EndDate.ToShortDateString()</p>
+                                        <p><strong>Reason:</strong> @request.Reason</p>
+                                        <p>
+                                            <strong>Medical Report:</strong>
+                                            @if (!string.IsNullOrEmpty(request.MedicalReport))
+                                            {
+                                                <!-- Button to open the medical report file -->
+                                                <a href="@request.MedicalReport" target="_blank" class="btn btn-primary btn-sm">
+                                                    View Medical Report
+                                                </a>
+                                            }
+                                            else
+                                            {
+                                                <span>No medical report provided</span>
+                                            }
+                                        </p>
+                                        <p>
+                                            <strong>Status:</strong>
+                                            @if (request.IsApproved == null)
+                                            {
+                                                <span class="badge bg-warning">Pending</span>
+                                            }
+                                            else if (request.IsApproved == true)
+                                            {
+                                                <span class="badge bg-success">Approved</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="badge bg-danger">Rejected</span>
+                                            }
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="6" class="text-center">No sick leave requests found.</td>
+            </tr>
+        }
+    </tbody>
+</table>
