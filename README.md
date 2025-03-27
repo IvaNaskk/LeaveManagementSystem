@@ -24,30 +24,30 @@ The Employee Leave Management System is a web application designed to manage emp
 * Authentication: ASP.NET Core Identity
 * Testing: xUnit, Moq
   
-🚀 Getting Started
+## 🚀 Getting Started
 📋 Prerequisites
 * .NET 7 SDK
 * Visual Studio or Visual Studio Code
 * SQLite (for development)
   
-🛠️ Installation
+## 🛠️ Installation
 1. Clone the Repository: bash Copy  git clone https://github.com/IvaNaskk/LeaveManagementSystem
 2. cd LeaveManagementSystem
    
-🔑 Default Accounts
+## 🔑 Default Accounts
 * HR Manager:
     * 📧 Email: admin@admin.com
     * 🔑 Password: NewSecurePass@123
 * Employee:
     * 👤 Employees can register themselves using the Register page.
 
-🧪 Running Tests
+## 🧪 Running Tests
 To run the unit tests, use the following command:
 bash
 Copy
 dotnet test
 
-📂 Project Structure
+## 📂 Project Structure
 * Controllers:
     * EmployeeController: Handles employee-related actions (e.g., requesting leave, viewing dashboard).
     * HRController: Handles HR-related actions (e.g., managing employees, approving leave requests).
@@ -69,7 +69,7 @@ dotnet test
 * Tests:
     * Unit tests for controllers and models using xUnit and Moq.
 
-📸 Screenshots
+## 📸 Screenshots
 Here are some screenshots of the application:
 
 Employee Dashboard
